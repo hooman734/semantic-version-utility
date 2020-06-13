@@ -14,7 +14,7 @@ def list_users():
 
 @app.route('/')
 def index():
-    return render_template("index.jinja2")
+    return render_template("welcome.jinja2")
 
 
 @app.route('/api/nuget/<package_name>/<type>')
@@ -33,7 +33,6 @@ def next_version(package_name, type):
         patch = str(patch_prefix) + '.' + str(patch)
 
     return render_template("index.jinja2", value=(package_name, type, (str(major), str(minor), patch)))
-
 
 @app.route('/api/nuget/<package_name>/<type>/json')
 def next_version_json(package_name, type):
