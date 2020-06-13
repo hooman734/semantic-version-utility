@@ -56,4 +56,4 @@ def next_version_json(package_name, type):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
