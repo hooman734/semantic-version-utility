@@ -1,6 +1,6 @@
 # semantic-version-utility
 
-### Search through the all the packages available on [Nuget.org](https://www.nuget.org/)
+### Search through all the packages available on [Nuget.org](https://www.nuget.org/)
 
 #### It is developed using [React.js](https://reactjs.org/)
 + [web](https://query-on-nuget-react.herokuapp.com/)
